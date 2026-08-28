@@ -124,3 +124,14 @@ GitHub
 The trained model is available in:
 
 model/crop_weed_detector_best.pt
+
+
+▶️ How to Run the Model
+
+with:
+
+pip install -r requirements.txt
+
+Then:
+
+yolo predict model=model/crop_weed_detector_best.pt source=your_image.jpg
